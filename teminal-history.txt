@@ -1,0 +1,42 @@
+gitpod /workspace/dimazaurus/js (main) $ history
+    1  ls
+    2  cd ruby/
+    3  bundle init
+    4  cd ..
+    5  cd js/
+    6  npm init
+    7  cd ..
+    8  ls
+    9  cd js/
+   10  nmp install @azure/storage-blob
+   12  cd ../ruby/
+   13  bundle install
+   14  cd ../py/
+   15  pip install -r requirements.txt 
+   16  cd ..
+   18  export ACCOUNT_KEY="AOj1+d0dwkO7X4DY3CnQWuJ3vvHcpRhi0WZSCLM8GbL+Qfm6N30hKAzLqqMSfBJzTflIB2jGOTNk+ASt67zSZQ=="
+   19  gp env ACCOUNT_KEY="AOj1+d0dwkO7X4DY3CnQWuJ3vvHcpRhi0WZSCLM8GbL+Qfm6N30hKAzLqqMSfBJzTflIB2jGOTNk+ASt67zSZQ=="
+   20  cd ruby/
+   21  ls
+   22  bundle exec ruby main.rb 
+   23  export ACCOUNT_NAME="dimazaurus"
+   24  gp env  ACCOUNT_NAME="dimazaurus"
+   25  bundle exec ruby main.rb 
+   29  env | grep ACCOUNT
+   31  bundle exec ruby main.rb 
+   32  python3 --version
+   33  cd ..
+   34  ls
+   35  cd ruby/
+   36  bundle exec ruby main.rb 
+   37  cd ../py
+   38  ls
+   43  pip install -r requirements.txt
+   44  python3 main.py 
+   45  cd ..
+   46  ls
+   47  git add .gitignore 
+   48  cd js/
+   49  ls
+   50  node main.js 
+   51  history
